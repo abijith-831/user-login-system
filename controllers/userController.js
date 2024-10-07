@@ -44,6 +44,7 @@ const insertUser = async (req, res) => {
             is_admin: 0
         });
 
+        console.log('vssg'+user);
         const userData = await user.save();
 
         if(userData){

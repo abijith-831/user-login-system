@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://127.0.0.1:27017/user_management_system");
+mongoose.connect("mongodb+srv://abhijith:12345@user-login-system.os4ca.mongodb.net/?retryWrites=true&w=majority&appName=user-login-system");
 const express = require("express");
 const nocache = require('nocache');
 const app = express();
