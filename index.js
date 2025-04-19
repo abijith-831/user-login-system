@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://abhijith:12345@user-login-system.os4ca.mongodb.net/?retryWrites=true&w=majority&appName=user-login-system");
+mongoose.connect("mongodb://username:password@cluster0-shard-00-00.os4ca.mongodb.net:27017,cluster0-shard-00-01.os4ca.mongodb.net:27017,cluster0-shard-00-02.os4ca.mongodb.net:27017/mydb?ssl=true&replicaSet=atlas-xyz-shard-0&authSource=admin&retryWrites=true&w=majority");
 const express = require("express");
 const nocache = require('nocache');
 const app = express();
